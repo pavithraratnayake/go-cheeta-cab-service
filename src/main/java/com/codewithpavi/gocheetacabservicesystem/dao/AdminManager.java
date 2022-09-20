@@ -74,16 +74,6 @@ public class AdminManager {
 		}
 		
 	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	
-	
 
 	
 	public static boolean addAdmin(Admin adminFirstName) {

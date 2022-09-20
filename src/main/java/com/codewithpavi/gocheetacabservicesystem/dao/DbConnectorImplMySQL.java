@@ -13,7 +13,8 @@ public class DbConnectorImplMySQL implements DbConnector {
 		
 		String url = "jdbc:mysql://localhost:3306/gocheetadb";
 		String userName = "root";
-		String password = "0827";
+		String password = "1234";
+		//String password = "0827";
 		return DriverManager.getConnection(url, userName, password);
 		
 	}

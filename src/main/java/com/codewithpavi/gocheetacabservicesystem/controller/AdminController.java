@@ -70,7 +70,7 @@ public class AdminController extends HttpServlet {
 				
 				try 
 				{
-					response.sendRedirect("index.jsp");
+					response.sendRedirect("admin-dashboard.jsp");
 				} 
 				catch (IOException e) 
 				{

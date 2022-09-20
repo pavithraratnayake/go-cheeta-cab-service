@@ -10,8 +10,36 @@
   	<description></description>
   	<servlet-class>com.codewithpavi.gocheetacabservicesystem.controller.AdminController</servlet-class>
   </servlet>
+  
+ 	<servlet>
+	  	<servlet-name>CustomerController</servlet-name>
+	  	<display-name>CustomerController</display-name>
+	  	<description>Manges customer related functions</description>
+	  	<servlet-class>com.codewithpavi.gocheetacabservicesystem.controller.CustomerController</servlet-class>
+ 	</servlet>
   <servlet-mapping>
   	<servlet-name>AdminController</servlet-name>
   	<url-pattern>/adminLogin</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+  	<servlet-name>CustomerController</servlet-name>
+  	<url-pattern>/getCustomer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CustomerController</servlet-name>
+  	<url-pattern>/addCustomer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CustomerController</servlet-name>
+  	<url-pattern>/updateCustomer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CustomerController</servlet-name>
+  	<url-pattern>/deleteCustomer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CustomerController</servlet-name>
+  	<url-pattern>/customerLogin</url-pattern>
   </servlet-mapping>
 </web-app>

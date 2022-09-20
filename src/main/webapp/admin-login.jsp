@@ -19,7 +19,7 @@
    
     <div class="sidenav">
         <div class="login-main-text">
-           <h2>Login<br> Admin</h2>
+           <h2>Login</h2>
         </div>
      </div>
      <div class="main">

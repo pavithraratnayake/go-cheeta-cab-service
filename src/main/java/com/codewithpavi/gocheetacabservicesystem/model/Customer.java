@@ -2,82 +2,78 @@ package com.codewithpavi.gocheetacabservicesystem.model;
 
 public class Customer {
 	
-	private int cutomerId;
-	private String cusFirstName;
-	private String cusLastName;
-	private String contactNo;
+	private int customerID;
+	private String fName;
+	private String lName;
+	private String userName;
+	private String contact;
 	private String email;
-	private String cusUserName;
-	private String cusPassword;
-	
+	private String password;
+
 	
 	public Customer() {
-		
 	}
 
 
-	public Customer(String cusFirstName, String cusLastName, String contactNo, String email, String cusUserName,
-			String cusPassword) {
-		super();
-		this.cusFirstName = cusFirstName;
-		this.cusLastName = cusLastName;
-		this.contactNo = contactNo;
+	public Customer(int customerID, String fName, String lName, String userName, String contact,
+			String email, String password) {
+		this.customerID = customerID;
+		this.fName = fName;
+		this.lName = lName;
+		this.userName = userName;
+		this.contact = contact;
 		this.email = email;
-		this.cusUserName = cusUserName;
-		this.cusPassword = cusPassword;
+		this.password = password;
 	}
 
 
-	public Customer(int cutomerId, String cusFirstName, String cusLastName, String contactNo, String email,
-			String cusUserName, String cusPassword) {
-		super();
-		this.cutomerId = cutomerId;
-		this.cusFirstName = cusFirstName;
-		this.cusLastName = cusLastName;
-		this.contactNo = contactNo;
-		this.email = email;
-		this.cusUserName = cusUserName;
-		this.cusPassword = cusPassword;
+	public int getCustomerID() {
+		return customerID;
 	}
 
 
-	public int getCutomerId() {
-		return cutomerId;
+	public void setCustomerID(int customerID) {
+		this.customerID = customerID;
 	}
 
 
-	public void setCutomerId(int cutomerId) {
-		this.cutomerId = cutomerId;
+	public String getfName() {
+		return fName;
 	}
 
 
-	public String getCusFirstName() {
-		return cusFirstName;
+	public void setfName(String fName) {
+		this.fName = fName;
 	}
 
 
-	public void setCusFirstName(String cusFirstName) {
-		this.cusFirstName = cusFirstName;
+	public String getlName() {
+		return lName;
 	}
 
 
-	public String getCusLastName() {
-		return cusLastName;
+	public void setlName(String lName) {
+		this.lName = lName;
 	}
 
 
-	public void setCusLastName(String cusLastName) {
-		this.cusLastName = cusLastName;
+	public String getUserName() {
+		return userName;
 	}
 
 
-	public String getContactNo() {
-		return contactNo;
+	public void setUserName(String userName) {
+		this.userName = userName;
 	}
 
 
-	public void setContactNo(String contactNo) {
-		this.contactNo = contactNo;
+	public String getContact() {
+		return contact;
+	}
+
+
+	public void setContact(String contact) {
+		this.contact = contact;
 	}
 
 
@@ -91,27 +87,14 @@ public class Customer {
 	}
 
 
-	public String getCusUserName() {
-		return cusUserName;
+	public String getPassword() {
+		return password;
 	}
 
 
-	public void setCusUserName(String cusUserName) {
-		this.cusUserName = cusUserName;
+	public void setPassword(String password) {
+		this.password = password;
 	}
-
-
-	public String getCusPassword() {
-		return cusPassword;
-	}
-
-
-	public void setCusPassword(String cusPassword) {
-		this.cusPassword = cusPassword;
-	}
-	
-	
-
 
 	
 
